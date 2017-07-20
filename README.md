@@ -20,7 +20,7 @@ The full manual is available at [https://stedolan.github.io/jq/manual/](https://
 
 ```jq <jq-expression> <file-containing-json> [optional-flags]```
 
-Use this style when the JSON content already is already present in a file.
+Use this style when the JSON content is already available in a file
 
 ```some-program-that-produces-json | jq <jq-expression> [optional-flags]```
 
