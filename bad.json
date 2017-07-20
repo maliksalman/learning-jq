@@ -1,0 +1,26 @@
+{
+	"VpcId": "vpc-9f5a56fb",
+	"InstanceTenancy": "default",
+	"Tags": [
+		{
+			"Value": "homer@simpsons.com",
+			"Key": "email"
+		},
+		{
+			"Value": 2016-07-01,
+			"Key": "lease"
+		},
+		{
+			"Value": "FcpVpc",
+			"Key": "logical-id"
+		},
+		{
+			"Value": "fcp-vpc",
+			"Key": "Name"
+		}
+	],
+	"State": "available",
+	"DhcpOptionsId": "dopt-a95b40cb",
+	"CidrBlock": "10.0.0.0/16",
+	"IsDefault": false,
+}
