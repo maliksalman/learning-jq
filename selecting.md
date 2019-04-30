@@ -1,5 +1,7 @@
 #### 3.2 Selecting elements
 
+##### 3.2.1 Basics 
+
 Gets the whole `Tags` array
 
 	cat small.json | jq '.Tags'
@@ -20,7 +22,6 @@ Gets the last VPC
 Gets `VpcId` of the first VPC
 
 	cat large.json | jq '.Vpcs[0].VpcId' -r
-
 
 ##### 3.2.2 Pipes
 
