@@ -12,6 +12,6 @@ Use this style when the JSON is being generated as an output of another command 
 
 
 1. [Basics](basics.md)
-2. [Escaping & counting](escaping-counting.md)
 3. [Selecting Elements](selecting.md)
+2. [Functions](escaping-counting.md)
 4. [Transforming structure](transforming.md)

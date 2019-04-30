@@ -1,6 +1,4 @@
-#### 3.3 Selecting elements
-
-##### 3.3.1 Basic Selecting
+#### 3.2 Selecting elements
 
 Gets the whole `Tags` array
 
@@ -24,7 +22,7 @@ Gets `VpcId` of the first VPC
 	cat large.json | jq '.Vpcs[0].VpcId' -r
 
 
-##### 3.3.2 Pipes
+##### 3.2.2 Pipes
 
 Gets the `Name` tag's value of the first VPC
 
@@ -33,9 +31,3 @@ Gets the `Name` tag's value of the first VPC
 or
 
 	cat large.json | jq '.Vpcs[0].Tags | from_entries | .Name' -r
-
-##### 3.3.3 Complex Example
-
-Gets the VPC where the `Name` tag's value is `special-vpc` (for reference: it is at index 21)
-
-	cat large.json | jq '.Vpcs[] | select (has("Tags") and (.Tags | from_entries | .Name)=="special-vpc")'
